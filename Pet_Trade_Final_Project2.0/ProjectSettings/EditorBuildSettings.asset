@@ -15,9 +15,6 @@ EditorBuildSettings:
     path: Assets/Scenes/Lizard.unity
     guid: 82dafe8f118e9b74186e2a49267f15ae
   - enabled: 1
-    path: Assets/Scenes/PetStoreLeo.unity
-    guid: abb0380aa00e9e641baeb9c001a6ae61
-  - enabled: 1
     path: Assets/Scenes/End Scene.unity
     guid: bea03626b08c9454989b82008cb193a5
   m_configObjects: {}
