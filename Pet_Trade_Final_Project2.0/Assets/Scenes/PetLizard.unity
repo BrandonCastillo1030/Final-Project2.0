@@ -260,6 +260,10 @@ MonoBehaviour:
   decreaseWater: 0
   decreaseClean: 0
   decreaseBored: 0
+  decreaseFoodNed: 0
+  decreaseWaterNed: 0
+  decreaseCleanNed: 0
+  decreaseBoredNed: 0
   textComponent: {fileID: 756736548}
   StartingState: {fileID: 11400000, guid: be38141070719d24fae9d6621c4776a5, type: 2}
   Situation1: {fileID: 11400000, guid: 96dfb1e7ab19932418283b14e8ff7db0, type: 2}
@@ -282,6 +286,11 @@ MonoBehaviour:
   CleanText: {fileID: 639892272}
   BoredText: {fileID: 1698298385}
   HealthText: {fileID: 756736548}
+  NedFoodText: {fileID: 756736548}
+  NedWaterText: {fileID: 756736548}
+  NedCleanText: {fileID: 756736548}
+  NedBoredText: {fileID: 756736548}
+  NedHealthText: {fileID: 756736548}
 --- !u!4 &199035011
 Transform:
   m_ObjectHideFlags: 0

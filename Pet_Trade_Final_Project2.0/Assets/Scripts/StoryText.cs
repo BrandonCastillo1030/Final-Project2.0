@@ -106,7 +106,7 @@ public class StoryText : MonoBehaviour
     {
         textComponent.text = state.GetStateStory();
         ManageState();
-     
+
         if (money <= 0)
         {
             money = 0;
@@ -225,6 +225,7 @@ public class StoryText : MonoBehaviour
         }
         else if (state == StartingState && sceneName == "Lizard")
         {
+            
             if (Input.GetKeyDown(KeyCode.Alpha1))
             {
                 state = StartingStateNed;
@@ -1488,6 +1489,7 @@ public class StoryText : MonoBehaviour
                 decreaseStat = UnityEngine.Random.Range(1, 4);
 
                 food = food + 10;
+                
 
                 if (decreaseStat == 1)
                 {
@@ -1509,6 +1511,7 @@ public class StoryText : MonoBehaviour
                     boredNed = bored - decreaseBored;
                     Debug.Log("Boredom: " + bored);
                 }
+                SceneManager.LoadSceneAsync("Scenes/End Scene");
             }
             else if (Input.GetKeyDown(KeyCode.Alpha2))
             {
@@ -1520,6 +1523,7 @@ public class StoryText : MonoBehaviour
                 decreaseStat = UnityEngine.Random.Range(1, 4);
 
                 waterNed = water + 10;
+                
                 if (decreaseStat == 1)
                 {
                     foodNed = food - decreaseFood;
@@ -1540,6 +1544,7 @@ public class StoryText : MonoBehaviour
                     boredNed = bored - decreaseBored;
                     Debug.Log(bored);
                 }
+                SceneManager.LoadSceneAsync("Scenes/End Scene");
             }
 
             else if (Input.GetKeyDown(KeyCode.Alpha3))
@@ -1551,7 +1556,7 @@ public class StoryText : MonoBehaviour
                 decreaseClean = UnityEngine.Random.Range(5, 15);
                 decreaseBored = UnityEngine.Random.Range(5, 15);
                 decreaseStat = UnityEngine.Random.Range(1, 4);
-
+                
                 cleanNed = clean + 10;
                 if (decreaseStat == 1)
                 {
@@ -1573,6 +1578,7 @@ public class StoryText : MonoBehaviour
                     boredNed = bored - decreaseBored;
                     Debug.Log(bored);
                 }
+                SceneManager.LoadSceneAsync("Scenes/End Scene");
             }
             else if (Input.GetKeyDown(KeyCode.Alpha4))
             {
@@ -1585,6 +1591,7 @@ public class StoryText : MonoBehaviour
                 decreaseStat = UnityEngine.Random.Range(1, 4);
 
                 boredNed = bored + 10;
+                
                 if (decreaseStat == 1)
                 {
                     foodNed = food - decreaseFood;
@@ -1605,6 +1612,7 @@ public class StoryText : MonoBehaviour
                     boredNed = bored - decreaseBored;
                     Debug.Log(bored);
                 }
+                SceneManager.LoadSceneAsync("Scenes/End Scene");
             }
 
         }
