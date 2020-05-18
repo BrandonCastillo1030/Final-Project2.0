@@ -1,0 +1,19 @@
+fileFormatVersion: 2
+guid: e1ff02cdd76a0b04bacd585cb7285ea9
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - Leo: {instanceID: 0}
+  - Rico: {instanceID: 0}
+  - Neo: {instanceID: 0}
+  - Ted: {instanceID: 0}
+  - Ned: {instanceID: 0}
+  - Shred: {instanceID: 0}
+  - storytext: {instanceID: 0}
+  - st: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

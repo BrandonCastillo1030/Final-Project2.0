@@ -1,0 +1,23 @@
+fileFormatVersion: 2
+guid: 8fed1281867c657469f6c297a0247c50
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - textComponent: {instanceID: 0}
+  - StartingState: {instanceID: 0}
+  - Situation1: {instanceID: 0}
+  - Situation2: {instanceID: 0}
+  - Situation3: {instanceID: 0}
+  - Situation4: {instanceID: 0}
+  - Situation5: {instanceID: 0}
+  - Situation6: {instanceID: 0}
+  - MoneyText: {instanceID: 0}
+  - FoodText: {instanceID: 0}
+  - WaterText: {instanceID: 0}
+  - CleanText: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

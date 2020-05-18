@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6b0085f226ea6d44690068589817930f, type: 3}
+  m_Name: StartingStateLeo
+  m_EditorClassIdentifier: 
+  storyText: "DAY 1:You just got your pet Leo from the breeder. Since you just got
+    home you decide to put the lizard in it enclosure so it can relax. After a few
+    hours you decide it is time to take care of your lizard. \n\nWhat will you do?
+    (Press the key 1, 2, 3, or 4 to do the action)\n1.Give your lizard food\n2.Give
+    your lizard water\n3.Clean the enclosure\n4.Interact with your lizard\n"
+  nextStates:
+  - {fileID: 0}

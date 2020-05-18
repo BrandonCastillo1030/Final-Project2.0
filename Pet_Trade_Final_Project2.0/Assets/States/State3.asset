@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6b0085f226ea6d44690068589817930f, type: 3}
+  m_Name: State3
+  m_EditorClassIdentifier: 
+  storyText: 'DAY 15:Neo is acting s little different. He didn''t eat much of his
+    food today. Your bit concerned ,but you''ll give it 10 days to see if Neo keeps
+    acting the same. It''s time to take care of Neo.
+
+
+    What will you do? (Press
+    the key 1, 2, 3, or 4 to do the action)
+
+    1.Give your lizard food
+
+    2.Give
+    your lizard water
+
+    3.Clean the enclosure
+
+    4.Interact with your lizard'
+  nextStates:
+  - {fileID: 11400000, guid: ebbea6064eb7abd488b9bb031b40d26a, type: 2}

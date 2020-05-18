@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6b0085f226ea6d44690068589817930f, type: 3}
+  m_Name: State5
+  m_EditorClassIdentifier: 
+  storyText: "Vet Results: Vet came back with some bad news. It seems that Neo has
+    a respiratory infection. The vet perscribed you some medicine for Neo. As the
+    vet gives you the medicine he says that it seems wherever you got Neo from didn't
+    take good care of him when they had him. You go to pay for the vet visit and
+    medicine which cost you $500. Before you leave the vet tells you to set another
+    appointment in 5 days to see if he is recovering.\n\n                                                                                  
+    Press [1] to return home"
+  nextStates:
+  - {fileID: 11400000, guid: 366773ce6118fac4bb67df70e11786a6, type: 2}

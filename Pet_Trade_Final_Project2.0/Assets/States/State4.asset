@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6b0085f226ea6d44690068589817930f, type: 3}
+  m_Name: State4
+  m_EditorClassIdentifier: 
+  storyText: "\n\n\nDAY 25: Neo is still acting strange so you decide to make a appointment
+    for the vet. To see if there is anything wrong with Neo\n\n\n                                                                              
+    Press [1] to see the results"
+  nextStates:
+  - {fileID: 11400000, guid: 7bfd2c01edf06684a827948e8bbe514b, type: 2}
